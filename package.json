@@ -4,6 +4,7 @@
   "description": "Generate blob shapes for Web and Flutter",
   "main": "index.js",
   "scripts": {
+    "start": "npm run dev",
     "build": "rm -rf build && NODE_ENV=production npm run build:css && webpack ---config ./config/webpack.prod.config.js",
     "dev": "npm run watch:css && webpack-dev-server --config ./config/webpack.prod.config.js --open",
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx src/",
