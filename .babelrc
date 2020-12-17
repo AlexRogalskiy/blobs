@@ -1,0 +1,14 @@
+{
+  "presets": ["@babel/env", "@babel/react"],
+  "plugins": [
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "libraryDirectory": "lib",
+        "camel2DashComponentName": true,
+        "style": "css"
+      }
+    ]
+  ]
+}
